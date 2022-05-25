@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Tentang">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#205F7C"
+        android:text="TENTANG APLIKASI"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Nama: Heldi Ilham"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="22dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Wisata Jakarta"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_below="@id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pemrograman Mobile UTS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="22dp" />
+
+   <com.google.android.material.bottomnavigation.BottomNavigationView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true">
+       <Button
+           android:id="@+id/btkembali"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="180dp"
+           android:text="Kembali"
+           app:backgroundTint="#2A6C8A"/>
+   </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

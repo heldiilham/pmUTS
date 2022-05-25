@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55cccc"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/tmi" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taman Mini Indonesia Indah" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lokasi: JL. Raya Taman Mini, Jakarta Timur,
+DKI Jakarta, Indonesia"
+        android:textSize="10dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destinasi yang satu ini cocok untuk Anda yang ingin berwisata dengan unsur budaya Indonesia. TMII menawarkan pemandangan kebudayaan bangsa yang mencakup aneka busana dan tarian daerah, miniatur kepulauan Indonesia, kereta gantung, museum, dan lain-lain.
+Anda cukup merogoh kocek sebesar Rp20.000,00 per orang untuk tiket pintu masuk (belum termasuk tiket lain-lain)" />
+    </ScrollView>
+
+
+
+</LinearLayout>

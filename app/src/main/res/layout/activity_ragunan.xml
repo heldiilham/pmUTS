@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55cccc"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="top"
+        android:src="@drawable/rgnan" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kebun Binatang Ragunan"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Lokasi: Jl. Harsono RM. No. 1, Ragunan,
+Pasar Minggu,Jakarta Selatan 12550 Indonesia." />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20dp"
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wisata dengan menyaksikan berbagai flora dan fauna tentu akan menyenangkan, apalagi untuk Anda yang mengajak rombongan keluarga. Berbagai macam flora dan fauna akan Anda temukan di sini. Ada sesi memberi makan hewan yang tak kalah seru pula.
+             \nBiaya tiket masuk kebun binatang ini hanyalah Rp3.000,00 untuk anak-anak dan Rp4.000,00 untuk orang dewasa." />
+    </ScrollView>
+</LinearLayout>
